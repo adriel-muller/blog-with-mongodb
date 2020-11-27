@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  background-color: white;
+}
+
+/*Mobile*/
+
+/*Fim Mobile*/
+
+/*Inicio Desktop*/
+@media screen and (min-width: 768px) {
+  #postar {
+    width: 10%;
+  }
+
+  .post {
+    float: left;
+    min-width: 20vw;
+    min-height: 15vw;
+    margin-top: 2%;
+    margin-left: 8%;
+  }
+
+  #btn-postar {
+    margin-left: 4%;
+  }
+
+  #titulo {
+    width: 10%;
+  }
+
+  #postagens {
+    margin-left: 4%;
+    background: whitesmoke;
+    margin-bottom: 2%;
+    width: 50%;
+  }
+
+  #icon {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float: left;
+  }
+
+  #icon-img {
+    width: 10%;
+    height: 10%;
+    float: left;
+    border-radius: 100%;
+  }
+
+  #titulo-geral {
+    float: left;
+    font-size: 62px;
+    color: #007bff;
+    font-family: sans-serif;
+    margin-top: 2%;
+    line-height: 72px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+  }
+
+  #titulo-postar {
+    float: left;
+    font-size: 20px;
+    color: #007bff;
+    font-family: sans-serif;
+    margin-top: 2%;
+    line-height: 72px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    height: 4vw;
+  }
+
+  #lixo {
+    float: right;
+  }
+
+  #exit {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 3%;
+  }
+
+  #container {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  #subt {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    margin-top: -10%;
+  }
+}
+/*Fim Desktop*/
